@@ -108,7 +108,7 @@ export function Pagination({
 /**
  * The Living wordmark. `tone="ivory"` uses the reversed logo for dark surfaces.
  *
- * Two files. The artwork is the ITR house-and-tree mark
+ * Two files. The artwork is the house-and-tree mark
  * beside the wordmark; the supplied master is a stacked lockup with the
  * tagline under it, which is a large-format logo — at the 32-36px a header bar
  * gives it, the wordmark inside a square lockup is about nine pixels tall and
@@ -129,7 +129,7 @@ export function Logo({
   const img = (
     <Image
       src={tone === "ivory" ? logoIvory : logoColour}
-      alt="Living — by ITR"
+      alt="Living"
       // Intrinsic size comes from the file itself now, so it cannot drift out
       // of step with the artwork the way a hand-written pair can.
       priority={priority}

@@ -94,7 +94,7 @@ export function AdminDashboard() {
         <span className="h-3 w-3 rounded-full bg-stone-300" />
         <span className="h-3 w-3 rounded-full bg-stone-300" />
         <span className="mx-auto rounded-full bg-surface px-4 py-1 text-xs text-muted">
-          app.livingbyitr.com/dashboard
+          app.living.theprid.com/dashboard
         </span>
       </div>
 

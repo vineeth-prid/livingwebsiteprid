@@ -21,6 +21,8 @@ import {
   ShieldAlert,
   KeyRound,
   Briefcase,
+  FileSignature,
+  Wallet,
 } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { Listings } from "@/components/property";
@@ -33,9 +35,9 @@ import { img } from "@/lib/images";
 import { site, waLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Our services — property sales, selling & NRI concierge in Kochi",
+  title: "Our services — sales, rentals & maintenance for NRI property owners",
   description:
-    "Buy an elevated home, sell yours discreetly, or hand your Kerala property to our NRI concierge. Living's property services across Ernakulam, Kochi and Kakkanad.",
+    "Portfolio management for NRI property owners: buying, selling, rentals and maintenance by one accountable team in India, plus an NRI concierge for everything else.",
   alternates: { canonical: "/services" },
 };
 
@@ -77,10 +79,13 @@ const sellingSteps = [
  * section now.
  */
 const propertyCareServices = [
-  { icon: Search, title: "Property inspection" },
-  { icon: Wrench, title: "Property maintenance" },
-  { icon: Receipt, title: "Utility bill payments" },
-  { icon: KeyRound, title: "Home preparation" },
+  { icon: UserCheck, title: "Tenant sourcing & verification" },
+  { icon: FileSignature, title: "Rental agreements" },
+  { icon: Wallet, title: "Rent collection & reporting" },
+  { icon: Search, title: "Periodic inspections" },
+  { icon: Wrench, title: "Repairs & upkeep" },
+  { icon: Receipt, title: "Utilities, tax & bill payments" },
+  { icon: KeyRound, title: "Ready-to-occupy condition" },
   { icon: Sofa, title: "Interior refresh" },
 ];
 
@@ -103,15 +108,15 @@ const nriServices = [
 const faqs = [
   {
     q: "Can I buy a property directly through Living?",
-    a: "Yes. You can browse Living's curated homes across Kochi and Ernakulam, view galleries, amenities and details, and enquire directly by call or WhatsApp with a Living property expert.",
+    a: "Yes. Living sources the right property for you, handles due diligence and valuation, and manages documentation and registration — so you can buy in India without flying in for every step.",
   },
   {
     q: "How does selling my property with Living work?",
-    a: "Living manages your sale end to end — valuation, professional photography, targeted marketing, buyer management and closing support. Owners cannot self-list; a Living expert handles the sale for you.",
+    a: "When it is time to exit, Living manages the sale end to end — valuation, professional photography, targeted marketing, buyer management and closing support — on your behalf while you are abroad.",
   },
   {
     q: "What do Living's NRI services include?",
-    a: "Living's NRI concierge in Kerala covers property management, legal and documentation support, power of attorney, inspection and maintenance, utility payments, home preparation, daily assistance and emergency support.",
+    a: "Property management covers rentals and maintenance — tenant sourcing, agreements, rent collection, inspections, repairs, and utilities and tax. The NRI concierge covers the rest: documentation, legal and power of attorney support, travel, family and emergencies.",
   },
 ];
 
@@ -130,7 +135,7 @@ export default async function ServicesPage() {
       <PageHeader
         eyebrow="Our services"
         title="Buy well. Sell quietly. Live effortlessly."
-        intro="One place for everything a home asks of you — from finding it, to selling it, to caring for it from afar."
+        intro="Every property in your portfolio — bought, sold, rented and maintained by one accountable team on the ground. One owner, one point of contact."
         image={img.buying}
         imageAlt="Elevated apartment interior with warm natural light in Kochi"
       />
@@ -144,9 +149,10 @@ export default async function ServicesPage() {
               Homes worth coming back to.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-body">
-              A curated collection of luxury apartments and villas across Kochi
-              and Ernakulam. Every listing carries a full gallery, amenities and
-              details — and a direct line to us, whenever you're ready.
+              Sourcing the right property, due diligence and valuation,
+              documentation and registration — handled with care for owners
+              who live abroad. Every listing carries a full gallery, amenities
+              and details, and a direct line to us whenever you&rsquo;re ready.
             </p>
           </Reveal>
           <div className="mt-14">
@@ -165,9 +171,9 @@ export default async function ServicesPage() {
                 A sale handled with care, start to finish.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-body">
-                You don't post a listing and hope. You hand it to people who do
-                this well — and get on with life. From valuation to keys, one
-                team looks after everything.
+                Exit when the time is right. You don&rsquo;t post a listing from
+                abroad and hope — you hand it to people who do this well. From
+                valuation to keys, one team looks after everything.
               </p>
               <div className="mt-8">
                 <Button
@@ -223,10 +229,10 @@ export default async function ServicesPage() {
                 Someone looking after it, whether or not you are here.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-body">
-                Inspections on a schedule, repairs before they become
-                expensive, bills paid on time and a report you can actually
-                read. The same care whether the house is empty, let, or the one
-                you live in.
+                Rentals and maintenance, run like an investment. Tenants sourced
+                and verified, rent collected and reported, inspections on a
+                schedule, repairs before they become expensive, and utilities
+                and tax paid on time — every home kept ready to occupy.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -238,7 +244,7 @@ export default async function ServicesPage() {
             </Reveal>
           </div>
 
-          <Stagger className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+          <Stagger className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {propertyCareServices.map((s) => (
               <StaggerItem key={s.title}>
                 <div className="flex h-full flex-col gap-3 rounded-card border border-hairline bg-surface p-5 shadow-soft transition-colors duration-300 hover:border-clay-400">
@@ -271,13 +277,13 @@ export default async function ServicesPage() {
             <Reveal>
               <Eyebrow>NRI services</Eyebrow>
               <h2 className="mt-5 font-display text-ink display-lg">
-                Your home in Kerala, in trusted hands.
+                Your life in India, in trusted hands.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-body">
-                A luxury concierge for NRIs — your paperwork, your travel and
-                your family looked after while you&rsquo;re away, with the
-                upkeep of the house itself handled by property management
-                above. One point of contact for both.
+                For NRI families who already trust us — your paperwork, your
+                travel and your family looked after while you&rsquo;re away,
+                with the property itself handled by portfolio management above.
+                One point of contact for both.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -305,7 +311,7 @@ export default async function ServicesPage() {
           <Reveal className="mt-14">
             <Button
               href={waLink(
-                "Hello Living, I'm an NRI and would like help managing my property in Kerala.",
+                "Hello Living, I'm an NRI and would like help managing my property in India.",
               )}
               variant="accent"
               external
@@ -318,11 +324,11 @@ export default async function ServicesPage() {
 
       <CtaBand
         title="Not sure where to start?"
-        body="Tell us what you need — buying, selling, or care for a home from afar — and we'll take it from there."
+        body="Tell us what you own and what you need — buying, selling, renting or care from afar — and we'll take it from there."
       />
 
       <section className="sr-only">
-        <h2>Property services in Ernakulam and Kochi — {site.name}</h2>
+        <h2>Property services for NRI owners — {site.name}</h2>
         {faqs.map((f) => (
           <div key={f.q}>
             <h3>{f.q}</h3>

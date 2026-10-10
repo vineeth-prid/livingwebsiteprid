@@ -33,7 +33,7 @@ export function ogImage(headline: string, footer: string) {
             color: MUTED,
           }}
         >
-          Living · by ITR Group
+          Living
         </div>
         {/* Single text child per div — Satori requires explicit flex on any
             element with more than one child. */}

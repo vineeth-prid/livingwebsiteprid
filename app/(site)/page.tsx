@@ -13,15 +13,15 @@ import { site } from "@/lib/site";
 const homeFaqs = [
   {
     q: "What is Living?",
-    a: "Living is a premium property and living brand by ITR Group, based in Kakkanad, Ernakulam. It brings together property sales, NRI concierge services, and a complete community and facility management platform across Kochi and Kerala.",
+    a: "Living is investment portfolio management for NRI property owners, from The Prid. It began when The Prid's overseas clients asked us to look after their homes and land in India, and today runs two pillars: portfolio management (sales, rentals and maintenance) and community support through the Living app.",
   },
   {
     q: "Where does Living operate?",
-    a: "Living serves Ernakulam, Kochi, Kakkanad and the wider Kerala region — with luxury apartments, villas, and property management tailored to each community.",
+    a: "Living's property team works on the ground in Kochi and across Kerala. The Living app supports residential communities in Muscat, Dubai and Bangalore.",
   },
   {
     q: "Does Living help NRIs manage property in Kerala?",
-    a: "Yes. Living offers a dedicated NRI concierge covering property management, legal and documentation support, maintenance, and daily assistance while you are abroad.",
+    a: "Yes — it is what Living was built for. One owner, one point of contact: every property in your portfolio is bought, sold, rented and maintained by one accountable team while you live abroad.",
   },
 ];
 
@@ -67,9 +67,9 @@ export default async function HomePage() {
               The part that starts after you move in.
             </h2>
             <p className="mt-5 max-w-md text-lg leading-relaxed text-body">
-              Raise a complaint, book a plumber, pay maintenance, see where the
-              money went. One app for residents, vendors and the association —
-              so running a building stops being somebody&rsquo;s evening job.
+              Dues, complaints, vendors, facilities and finance in one place.
+              A resident app, a vendor app and a dashboard for the association
+              — already running communities in Muscat, Dubai and Bangalore.
             </p>
             <Link
               href="/platform"
@@ -83,7 +83,7 @@ export default async function HomePage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 ["94.2%", "Complaints closed within the promised window"],
-                ["15 yrs", "Building and handing over in Kerala"],
+                ["3", "Countries with communities on the Living app"],
                 ["18", "NRI services, from documentation to a leaking tap"],
                 ["1", "App for residents, vendors and the association"],
               ].map(([k, v]) => (

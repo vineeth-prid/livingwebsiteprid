@@ -33,7 +33,7 @@ export function PublishPanel({
 
       <p className="mb-4 text-xs leading-relaxed text-stone-500">
         {isPublic
-          ? "This listing is visible on livingbyitr.com."
+          ? "This listing is visible on living.theprid.com."
           : "This listing is not on the website. Publishing needs a title, location, price and at least one public photo."}
       </p>
 

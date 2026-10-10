@@ -14,8 +14,8 @@ export function SiteFooter() {
               Life happens here.
             </p>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-stone-400">
-              A premium property and living ecosystem by {site.parent}, built
-              across Ernakulam, Kochi and Kerala.
+              Your property in India, managed like an investment. A practice
+              of {site.parent}, run for the NRI families in our network.
             </p>
           </div>
 
@@ -71,10 +71,10 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-pine-700 pt-8 text-xs text-stone-400 md:flex-row md:items-center md:justify-between">
           <p>
-            © {new Date().getFullYear()} {site.legalName}. A subsidiary of{" "}
+            © {new Date().getFullYear()} {site.legalName}. Part of{" "}
             {site.parent}.
           </p>
-          <p>Property sales · NRI concierge · Community platform · Kerala</p>
+          <p>Sales · Rentals · Maintenance · Community support</p>
         </div>
       </div>
     </footer>

@@ -27,7 +27,7 @@ export const services: Service[] = [
     label: "Buy a Property",
     href: "/services#buying",
     blurb:
-      "Curated homes across Kochi and Ernakulam, with viewings, evaluation and documentation handled for you.",
+      "Sourcing the right property, due diligence and valuation, documentation and registration — handled for owners who live abroad.",
     icon: Home,
   },
   {
@@ -35,7 +35,7 @@ export const services: Service[] = [
     label: "Sell a Property",
     href: "/services#selling",
     blurb:
-      "A managed sale end to end — valuation, photography, marketing, buyer management and closing.",
+      "Exit when the time is right — valuation, marketing, buyer management and closing, managed end to end.",
     icon: KeyRound,
   },
   {
@@ -43,7 +43,7 @@ export const services: Service[] = [
     label: "NRI Concierge",
     href: "/services#nri",
     blurb:
-      "Local support for your home, paperwork and family in Kerala while you are abroad.",
+      "One accountable point of contact in India for your paperwork, family and travel while you live abroad.",
     icon: Globe2,
   },
   {
@@ -51,7 +51,7 @@ export const services: Service[] = [
     label: "Property Management",
     href: "/services#property-care",
     blurb:
-      "Inspections, preventive maintenance, repairs, utilities and reporting, year round.",
+      "Rentals and maintenance — tenants sourced and verified, rent collected, repairs done, utilities and tax paid, and a report you can read from abroad.",
     icon: Wrench,
   },
   {
@@ -67,7 +67,7 @@ export const services: Service[] = [
     label: "Living Platform",
     href: "/platform",
     blurb:
-      "The technology connecting residents, associations, staff and vendors in one place.",
+      "The Living app — resident app, vendor app and association dashboard for dues, complaints, vendors, facilities and finance.",
     icon: LayoutGrid,
   },
 ];

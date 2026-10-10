@@ -70,7 +70,7 @@ const newWay = [
 const stats = [
   ["94.2%", "Complaints closed on time"],
   ["8", "Modules, included"],
-  ["15 yrs", "Of ITR Group behind it"],
+  ["3", "Countries — Oman, UAE, India"],
 ] as const;
 
 const steps = [

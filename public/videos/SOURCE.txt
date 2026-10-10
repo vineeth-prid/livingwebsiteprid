@@ -11,7 +11,7 @@ LICENCE    UNRESOLVED — READ THIS BEFORE GOING TO PRODUCTION.
            so we have nothing in writing that says Living may use it. Clear the
            rights, or replace the file, before this reaches the live domain.
            It is re-hosted here rather than hot-linked so that nothing on
-           livingbyitr.com depends on someone else's CDN staying up.
+           living.theprid.com depends on someone else's CDN staying up.
 
            Replacing it is one line: drop a new file in beside this note, or
            set NEXT_PUBLIC_HERO_VIDEO_URL to footage in the bucket. The hero

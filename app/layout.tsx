@@ -30,7 +30,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Premium Property & NRI Services in Kochi | Living by ITR",
+    default: "NRI Property Management in India | Living",
     template: "%s · Living",
   },
   description: site.description,

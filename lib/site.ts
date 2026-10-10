@@ -3,17 +3,17 @@ import type { Metadata } from "next";
 // Single source of truth for site-wide facts (contact, nav, brand).
 export const site = {
   name: "Living",
-  legalName: "Living by ITR",
-  parent: "ITR Group",
+  legalName: "Living",
+  parent: "The Prid",
   tagline: "Life Happens Here.",
   description:
-    "Living is a premium PropTech ecosystem by ITR Group — property sales, NRI concierge, and a complete platform for apartment communities across Ernakulam, Kochi and Kerala.",
-  url: "https://livingbyitr.com",
+    "Living manages property in India for NRI owners — sales, rentals and maintenance by one accountable team on the ground, and the Living app for the communities they live in.",
+  url: "https://living.theprid.com",
   locale: "en_IN",
-  phone: "8089 00 55 00",
-  phoneRaw: "+918089005500",
-  whatsapp: "918089005500",
-  email: "talktous@livingbyitr.com",
+  phone: "+91 9344 36 7324",
+  phoneRaw: "+919344367324",
+  whatsapp: "919344367324",
+  email: "talktous@theprid.com",
   address: {
     line: "Living, Kakkanad Head Office",
     city: "Ernakulam",
@@ -23,10 +23,7 @@ export const site = {
   hours: "Mon – Sat · 9:30 to 6:30",
   // Kakkanad, Ernakulam approx.
   geo: { lat: 10.0159, lng: 76.3419 },
-  sameAs: [
-    "https://www.facebook.com/itrgroups.kochi/",
-    "https://www.instagram.com/itr_groups/",
-  ],
+  sameAs: ["https://theprid.com"],
 } as const;
 
 // Per-page metadata: unique title + description, canonical, and matching OG.
@@ -65,31 +62,22 @@ export const nav = [
       {
         label: "Property buying",
         href: "/services#buying",
-        blurb: "Find a home in Kochi, with someone on your side.",
+        blurb: "The right property sourced, checked and registered for you.",
       },
       {
         label: "Sell your property",
         href: "/services#selling",
-        blurb: "Valuation, photography, marketing and the closing.",
+        blurb: "Exit when the time is right, handled end to end.",
       },
       {
         label: "Property management",
         href: "/services#property-care",
-        blurb: "Inspections, maintenance, utilities and upkeep, year round.",
+        blurb: "Rentals and maintenance — tenants, rent, repairs and bills.",
       },
       {
         label: "NRI concierge",
         href: "/services#nri",
-        blurb: "You looked after while you are abroad — papers, people, plans.",
-      },
-      {
-        // Its own product on its own domain, so this leaves the site. The
-        // `external` flag is what the nav reads to open it in a new tab with
-        // rel=noopener rather than routing it through next/link.
-        label: "Cabs",
-        href: "https://cabs.livingbyitr.com/",
-        blurb: "Airport runs and day hire, booked through Living.",
-        external: true,
+        blurb: "One point of contact in India while you live abroad.",
       },
     ],
   },
@@ -106,7 +94,7 @@ export type NavItem = (typeof nav)[number];
  * `site.url` is the public, canonical address and has to stay production —
  * canonical tags, OG images and JSON-LD all point there on purpose, from every
  * environment. A staff link is the opposite: it has to point at the server the
- * draft was actually created on. Sending a link to livingbyitr.com for a draft
+ * draft was actually created on. Sending a link to living.theprid.com for a draft
  * that only exists in staging is how a reviewer ends up looking at a listing
  * that isn't there.
  *

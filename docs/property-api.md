@@ -14,7 +14,7 @@ system, and whoever implements this end.
 
 ## 1. What this exposes
 
-Listings that are **published on livingbyitr.com**, and nothing else.
+Listings that are **published on living.theprid.com**, and nothing else.
 
 A property reaches this API only when both of these are true, which is the same
 rule the website itself uses:
@@ -58,7 +58,7 @@ system.
 
 ```http
 GET /api/public/properties HTTP/1.1
-Host: livingbyitr.com
+Host: living.theprid.com
 Authorization: Bearer <api-key>
 ```
 
@@ -136,7 +136,7 @@ GET /api/public/properties/{id}
 ```
 
 `{id}` is the property's `id` — a URL-safe slug such as
-`the-arbour-kakkanad`, the same segment livingbyitr.com uses at
+`the-arbour-kakkanad`, the same segment living.theprid.com uses at
 `/homes/the-arbour-kakkanad`.
 
 `reference` (`LIV-0010`) is **also** accepted, because it is what staff quote
@@ -407,7 +407,7 @@ Today `gallery` can contain two different shapes:
 
 1. `https://media.livingbyitr.com/living-images-prod/images/foo.jpg` — absolute,
    fine for anyone.
-2. `/media/<key>` — **relative**, and only resolvable against livingbyitr.com.
+2. `/media/<key>` — **relative**, and only resolvable against living.theprid.com.
 
 Shape 2 is what admin-uploaded photos use. It is a same-origin proxy that reads
 from private object storage with the server's credentials, and it is anonymous

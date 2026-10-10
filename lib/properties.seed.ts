@@ -44,7 +44,7 @@ export const propertySeed: PropertySeed[] = [
       imagePaths.storyMorning,
       imagePaths.storyLiving,
     ],
-    // Live content: these four are what livingbyitr.com already shows.
+    // Live content: these four are what living.theprid.com already shows.
     workflowStatus: "published",
     isPublic: true,
     sortOrder: 0,
@@ -85,7 +85,7 @@ export const propertySeed: PropertySeed[] = [
       "/images/homes/riverstone-03.jpg",
       "/images/homes/riverstone-04.jpg",
     ],
-    // Live content: these four are what livingbyitr.com already shows.
+    // Live content: these four are what living.theprid.com already shows.
     workflowStatus: "published",
     isPublic: true,
     sortOrder: 1,
@@ -126,7 +126,7 @@ export const propertySeed: PropertySeed[] = [
       "/images/homes/terraces-03.jpg",
       "/images/homes/terraces-04.jpg",
     ],
-    // Live content: these four are what livingbyitr.com already shows.
+    // Live content: these four are what living.theprid.com already shows.
     workflowStatus: "published",
     isPublic: true,
     sortOrder: 2,
@@ -167,7 +167,7 @@ export const propertySeed: PropertySeed[] = [
       "/images/homes/willow-03.jpg",
       "/images/homes/willow-04.jpg",
     ],
-    // Live content: these four are what livingbyitr.com already shows.
+    // Live content: these four are what living.theprid.com already shows.
     workflowStatus: "published",
     isPublic: true,
     sortOrder: 3,

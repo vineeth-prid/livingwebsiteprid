@@ -5,7 +5,7 @@
    Warm-cool luxury triad: Pine · Stone · Clay
    ============================================================ */
 @theme {
-  /* Pine — primary (teal-green, matched to livingbyitr.com) */
+  /* Pine — primary (teal-green, matched to living.theprid.com) */
   --color-pine-50: #edf3f1;
   --color-pine-100: #d7e5e1;
   --color-pine-200: #b0cbc4;
@@ -31,7 +31,7 @@
   --color-stone-900: #1e1b18;
   --color-stone-950: #14110f;
 
-  /* Clay — single accent (gold, matched to livingbyitr.com) */
+  /* Clay — single accent (gold, matched to living.theprid.com) */
   --color-clay-50: #f8f1de;
   --color-clay-100: #efe0b8;
   --color-clay-200: #e4cd92;
@@ -89,7 +89,7 @@
 }
 
 :root {
-  --page: #faf8f5; /* warm cream — matches livingbyitr.com */
+  --page: #faf8f5; /* warm cream — matches living.theprid.com */
   --ink: #0d2b2c; /* dark teal — headings */
   --body: #2b3d39; /* grey-green — body copy */
   --muted: #5c6d67; /* grey-green — muted */

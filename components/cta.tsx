@@ -6,7 +6,7 @@ import { site, telLink, waLink } from "@/lib/site";
 export function CtaBand({
   eyebrow = "Talk to us",
   title = "Let's find where your life happens.",
-  body = "A short, unhurried conversation with a Living property expert — no pressure, no jargon.",
+  body = "A short, unhurried conversation about the property you own in India — no pressure, no jargon.",
   message,
 }: {
   eyebrow?: string;

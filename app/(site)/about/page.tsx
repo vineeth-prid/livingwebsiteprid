@@ -9,32 +9,32 @@ import { img } from "@/lib/images";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Living — a premium property brand by ITR Group, Kerala",
+  title: "About Living — property management for NRI owners, from The Prid",
   description:
-    "Living is a premium property and living brand by ITR Group, built on fifteen years of trust in Kerala. Our mission, values, legacy and vision for modern living in Kochi.",
+    "Living began when The Prid's overseas clients asked us to look after their property in India. Today it is a dedicated practice for NRI owners — sales, rentals, maintenance and community support.",
   alternates: { canonical: "/about" },
 };
 
 const timeline = [
   {
-    year: "2009",
-    title: "ITR Group is founded",
-    body: "A small Kerala team with a simple belief — do good work, keep your word, and treat every home as if it were your own.",
+    year: "2021",
+    title: "The Prid is founded",
+    body: "An AI-driven technology company delivering enterprise-grade digital, security and software solutions to institutions and businesses across India, the GCC and Singapore.",
   },
   {
-    year: "2009 – 2024",
-    title: "Fifteen years of trust",
-    body: "Across property, construction and services, ITR Group grows by reputation — one satisfied family, one community, at a time.",
+    year: "Built on trust",
+    title: "A loyal, global client network",
+    body: "Years of delivering for institutions and enterprises — the Ministry of Defence, Oman among them — built a network that trusts us with what matters.",
   },
   {
-    year: "2024",
-    title: "Living is born",
-    body: "Everything ITR Group learned about homes, gathered into one premium brand — calm, warm, and effortless.",
+    year: "A network abroad",
+    title: "Homes and land back in India",
+    body: "Many of those clients are NRIs — successful overseas, with property back home and no one on the ground they could rely on.",
   },
   {
     year: "Today",
-    title: "One ecosystem for home",
-    body: "Property sales, NRI concierge, and a complete community platform — across Ernakulam, Kochi and Kerala.",
+    title: "Living is born",
+    body: "They asked us to look after their property. Today that is a dedicated practice — portfolio management and community support, run for our network.",
   },
 ];
 
@@ -64,10 +64,10 @@ export default function AboutPage() {
 
       <PageHeader
         eyebrow="About Living"
-        title="Fifteen years of trust, gathered into one home."
-        intro="Living is a premium property and living brand by ITR Group — everything we've learned about homes in Kerala, made calm, warm and effortless."
+        title="From our network, for our network."
+        intro="Living began when The Prid's clients abroad asked us to look after their property in India. Today it manages every property an NRI family owns — like an investment."
         image={img.legacy}
-        imageAlt="A warm, established Kerala home framed by greenery"
+        imageAlt="A warm, established home in India framed by greenery"
       />
 
       {/* MISSION / VISION */}
@@ -78,12 +78,12 @@ export default function AboutPage() {
               <Compass className="h-8 w-8 text-pine-600" strokeWidth={1.4} />
               <p className="eyebrow mt-6">Our mission</p>
               <h2 className="mt-4 font-display text-3xl text-ink md:text-4xl">
-                To make the whole of home life feel effortless.
+                Confident, hands-free ownership — from anywhere in the world.
               </h2>
               <p className="mt-5 leading-relaxed text-body">
-                From finding a home to living well inside it, we bring the
-                fragmented, anxious parts of property into one calm, considered
-                experience — so you can simply live.
+                Every property in your portfolio — bought, sold, rented and
+                maintained by one accountable team on the ground. One owner. One
+                point of contact. Every property, managed as a portfolio.
               </p>
             </div>
           </Reveal>
@@ -92,12 +92,12 @@ export default function AboutPage() {
               <Eye className="h-8 w-8 text-pine-600" strokeWidth={1.4} />
               <p className="eyebrow mt-6">Our vision</p>
               <h2 className="mt-4 font-display text-3xl text-ink md:text-4xl">
-                The most trusted name in living, in Kerala and beyond.
+                One partner for every property they own.
               </h2>
               <p className="mt-5 leading-relaxed text-body">
-                A brand people hand their home to without a second thought —
-                because everything we touch feels premium, honest and quietly
-                well-run.
+                We don&rsquo;t chase buyers or tenants from the open market. We
+                serve NRI families who already trust us — and keep every home
+                they own in investment-grade condition.
               </p>
             </div>
           </Reveal>
@@ -108,9 +108,9 @@ export default function AboutPage() {
       <section className="overflow-hidden bg-surface section">
         <div className="shell">
           <Reveal className="max-w-2xl">
-            <Eyebrow>The legacy</Eyebrow>
+            <Eyebrow>Where we come from</Eyebrow>
             <h2 className="mt-5 font-display text-ink display-lg">
-              A story fifteen years in the making.
+              How Living was born.
             </h2>
           </Reveal>
 
@@ -179,8 +179,9 @@ export default function AboutPage() {
               The people behind Living.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-body">
-              A close team from ITR Group, each looking after one part of your
-              experience. Full profiles are available on request.
+              A close team on the ground, backed by The Prid&rsquo;s 30+
+              specialists, each looking after one part of your experience. Full
+              profiles are available on request.
             </p>
           </Reveal>
           <Stagger className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -209,13 +210,13 @@ export default function AboutPage() {
           <Reveal>
             <Eyebrow>Why Living</Eyebrow>
             <h2 className="mt-5 font-display text-ink display-lg">
-              Because home deserves better than fragments.
+              Because a property abroad deserves better than favours.
             </h2>
             <p className="mt-6 leading-relaxed text-body">
-              You shouldn't need five apps, three brokers and a folder of
-              paperwork to live well. Living brings it together with the calm and
-              polish of a brand that genuinely cares — and the backing of fifteen
-              years of ITR Group trust.
+              You shouldn&rsquo;t have to rely on relatives, three brokers and a
+              folder of paperwork to look after a home you can&rsquo;t visit.
+              Living gives you one accountable team, run by people who already
+              know you.
             </p>
           </Reveal>
           <Reveal delay={0.1}>

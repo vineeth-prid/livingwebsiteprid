@@ -1,7 +1,7 @@
 /**
  * Bootstrap the first administrator.
  *
- *   npm run admin:create -- "Vineeth" vineeth@livingbyitr.com
+ *   npm run admin:create -- "Vineeth" vineeth@theprid.com
  *
  * Chicken-and-egg: employees are created from inside the panel, and the panel
  * needs an admin to sign in. This is the only way an account is created without

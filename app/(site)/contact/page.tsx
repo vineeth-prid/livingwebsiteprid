@@ -11,7 +11,7 @@ import { site, telLink, mailLink, waLink } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact — talk to Living in Kakkanad, Ernakulam",
   description:
-    "Talk to Living. Call 8089 00 55 00, WhatsApp us, or visit our Kakkanad head office in Ernakulam, Kerala. Premium property, NRI services and community platform.",
+    "Talk to Living. Call or WhatsApp +91 9344 36 7324, or visit our Kakkanad office in Ernakulam, Kerala. Sales, rentals and maintenance for NRI property owners.",
   alternates: { canonical: "/contact" },
 };
 

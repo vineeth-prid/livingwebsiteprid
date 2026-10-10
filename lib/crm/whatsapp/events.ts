@@ -169,6 +169,6 @@ export async function notifyPropertyPublished(propertyId: string, actorId: strin
 
   await tell(
     actorId,
-    `✅ ${property.reference ?? property.name} is now live on livingbyitr.com.`,
+    `✅ ${property.reference ?? property.name} is now live on living.theprid.com.`,
   );
 }

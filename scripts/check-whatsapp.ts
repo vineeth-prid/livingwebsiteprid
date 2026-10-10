@@ -1503,7 +1503,7 @@ async function main() {
   });
 
   check("step 7: the preview names the property and the photo count", () => {
-    const withPhotos = t.photosDone("LIV-0009", 3, "https://livingbyitr.com/admin/properties/x");
+    const withPhotos = t.photosDone("LIV-0009", 3, "https://living.theprid.com/admin/properties/x");
     assert.match(withPhotos, /3 photos on LIV-0009/);
     assert.match(withPhotos, /admin\/properties/, "the link is the panel, not the public site");
     assert.match(withPhotos, /publish/i, "it says what to do next");
@@ -1519,7 +1519,7 @@ async function main() {
   });
 
   check("step 7: the preview link is never a public URL", () => {
-    const message = t.photosDone("LIV-0009", 2, "https://livingbyitr.com/admin/properties/x");
+    const message = t.photosDone("LIV-0009", 2, "https://living.theprid.com/admin/properties/x");
     assert.ok(
       !/\/homes\//.test(message),
       "a draft has no public page — the link must stay behind the login",

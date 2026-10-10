@@ -29,7 +29,7 @@ export function LoginForm({ next }: { next?: string }) {
           autoComplete="username"
           autoFocus
           className={inputClass}
-          placeholder="you@livingbyitr.com"
+          placeholder="you@theprid.com"
         />
       </Field>
       <Field label="Password" required>

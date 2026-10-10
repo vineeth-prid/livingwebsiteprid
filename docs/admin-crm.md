@@ -11,7 +11,7 @@ npm install
 cp .env.example .env.local        # fill in DATABASE_URL and the MinIO block
 npm run db:migrate                # additive; see "Migration safety" below
 npm run db:seed                   # listings, lead types, sources, sample leads
-npm run admin:create -- "Your Name" you@livingbyitr.com
+npm run admin:create -- "Your Name" you@theprid.com
 npm run dev                       # sign in at /admin
 ```
 
@@ -117,7 +117,7 @@ UPDATE "properties" SET "workflow_status" = 'published', "is_public" = true ...
 ```
 
 Every listing that existed before the panel was live on the website. Without
-this they would all default to `draft` and vanish from livingbyitr.com the
+this they would all default to `draft` and vanish from living.theprid.com the
 moment the migration ran. It only touches rows present at migration time.
 
 ## Checks

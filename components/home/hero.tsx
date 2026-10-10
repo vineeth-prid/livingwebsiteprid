@@ -146,15 +146,12 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: EASE, delay: 1.45 }}
           >
-            {/* Two sentences and no more. The first is a specific claim about
-                how the business actually runs; the second is category, who,
-                where and how long, in one breath. This is also where the
-                homepage says Kochi and Kerala, now that the h1 is a name. */}
+            {/* Two sentences and no more. The first is the promise; the
+                second is who it is for and what that means in practice. */}
             <p className="leading-relaxed text-stone-100">
-              The people who hand over the keys are the ones still answering the
-              phone five years later. A property and living company for buyers,
-              sellers and owners across Kochi, Ernakulam and Kerala — the
-              property arm of ITR Group, fifteen years in.
+              Your property in India, managed like an investment. Living looks
+              after every home and plot an NRI family owns — bought, sold,
+              rented and maintained by one accountable team on the ground.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Button href="/services" variant="accent">

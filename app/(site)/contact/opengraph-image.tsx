@@ -7,6 +7,6 @@ export const contentType = ogContentType;
 export default function Image() {
   return ogImage(
     "Let's talk about home",
-    "Kakkanad, Ernakulam · 8089 00 55 00 · talktous@livingbyitr.com",
+    "Kakkanad, Ernakulam · +91 9344 36 7324 · talktous@theprid.com",
   );
 }
